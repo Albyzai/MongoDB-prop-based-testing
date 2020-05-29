@@ -1,0 +1,17 @@
+{
+  "name": "prop-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Test/index.js",
+  "scripts": {
+    "start": "node Test/index.js",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fast-check": "^1.24.2",
+    "mocha": "^7.2.0",
+    "mongoose": "^5.9.16"
+  }
+}
