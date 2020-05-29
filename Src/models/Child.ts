@@ -1,5 +1,6 @@
-const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+import * as mongoose from 'mongoose'
+const Schema = mongoose.Schema
+
 // Create Schema
 const ChildrenSchema = new Schema({
   name: {
@@ -13,4 +14,4 @@ const ChildrenSchema = new Schema({
   }
 });
 
-module.exports = Child = mongoose.model('Child', ChildrenSchema, 'children');
+export const Child = mongoose.model('Child', ChildrenSchema, 'children');
